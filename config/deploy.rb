@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 set :application, "coffinWorld"
-set :repo_url, "git@github.com:onixtsm/cuffinworld.git"
+set :repo_url, "git@github.com:onixtsm/coffinWorld.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
