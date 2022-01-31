@@ -1,0 +1,25 @@
+nav {
+  background: no-repeat url('lopata.png');
+  /* background-position: left bottom; */
+  color: #d2bfae;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10%;
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: #d2bfae;
+    }
+  }
+}
