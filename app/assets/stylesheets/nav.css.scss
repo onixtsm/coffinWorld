@@ -1,10 +1,21 @@
 nav {
-  background: no-repeat url('lopata.png');
-  /* background-position: left bottom; */
   color: #d2bfae;
-  font-size: 20px;
   text-align: center;
   margin: auto;
+  margin-bottom: 0;
+  max-width: 840px;
+
+  h1 {
+    font-size: 8em;
+  }
+
+  h1::after {
+    content: '';
+    background: no-repeat url('lopata.png');
+    background-position: top 55% left 50%;
+    display: block;
+    height: 100px;
+  }
 
   .tabs {
     display: flex;
@@ -14,12 +25,19 @@ nav {
   li {
     list-style-type: none;
     display: inline-block;
-    margin: 10%;
+    border: #ff0000 solid 2px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 25px;
+    padding: 0.3em 5em;
+    margin: auto 30px;
 
     a {
+      transform: translateX(-3%);
       display: block;
       text-decoration: none;
       color: #d2bfae;
+      font-size: 3em;
     }
   }
 }
