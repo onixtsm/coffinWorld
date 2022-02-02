@@ -1,43 +1,50 @@
+$width: 700;
+
 nav {
   color: #d2bfae;
   text-align: center;
   margin: auto;
   margin-bottom: 0;
-  max-width: 840px;
+  max-width: $width px;
 
   h1 {
-    font-size: 8em;
+    font-size: 5em;
   }
 
   h1::after {
     content: '';
     background: no-repeat url('lopata.png');
     background-position: top 55% left 50%;
+    background-size: 45em auto;
     display: block;
-    height: 100px;
+    height: 45px;
   }
 
   .tabs {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   li {
     list-style-type: none;
-    display: inline-block;
-    border: #ff0000 solid 2px;
-    color: #fff;
-    background-color: #000;
-    border-radius: 25px;
-    padding: 0.3em 5em;
     margin: auto 30px;
+    margin-bottom: 15px;
 
     a {
+      border: #ff0000 solid 2px;
+      background-color: #000;
+      border-radius: 25px;
+      padding: 0.3em 2em;
       transform: translateX(-3%);
       display: block;
+      color: #fff;
       text-decoration: none;
-      color: #d2bfae;
-      font-size: 3em;
+      font-size: 1.9em;
+    }
+
+    a:hover {
+      background-color: #9f2300
     }
   }
 }
