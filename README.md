@@ -1,24 +1,10 @@
-# README
+#Setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Install [rbenv](https://github.com/rbenv/rbenv) and [ruby-build](https://github.com/rbenv/ruby-build) on your linux distro.
 
-Things you may want to cover:
+You will need ruby version 3.0.1
+```rbenv install 3.0.1```
 
-* Ruby version
+And also you need yarn and mysql
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I belive you can just call `./bin/setup` file

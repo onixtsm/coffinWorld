@@ -1,0 +1,107 @@
+$coffin-width: 250px;
+$ccolor: #000;
+
+.coffin {
+  width: $coffin-width;
+  position: relative;
+
+  div.text {
+    position: relative;
+    margin: auto;
+    padding-top: calc($coffin-width / 20);
+    color: #fff;
+    width: 75%;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    z-index: 10;
+    overflow: hidden;
+    height: calc($coffin-width * 2);
+
+  }
+}
+
+.coffin_top {
+  position: relative;
+  height: calc($coffin-width / 2);
+  border-bottom: 1px solid $ccolor;
+}
+.coffin_top::before {
+  content: '';
+  height: calc($coffin-width / 2);
+  display: block;
+  background-color: $ccolor;
+  border-left: solid $ccolor 2px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform: skewX(-20deg);
+  width: calc($coffin-width / 1.5);
+  background-color: $ccolor;
+}
+.border_top {
+  border-top: 2px solid $ccolor;
+  position: absolute;
+  width: 82%;
+  top: 0;
+  left: 9%;
+}
+
+.coffin_top::after {
+  content: '';
+  height: calc($coffin-width / 2);
+  display: block;
+  border-right: solid $ccolor 2px;
+  transform: skewX(20deg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc($coffin-width / 1.5);
+  background-color: $ccolor;
+}
+
+.coffin_bottom {
+  position: relative;
+  height: calc($coffin-width * 1.67);
+}
+
+.coffin_bottom::after {
+  content: '';
+  display: block;
+  height: calc($coffin-width * 1.67);
+  border-right: solid $ccolor 2px;
+  transform: skewX(-6.3deg);
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: calc($coffin-width / 1.5);
+  background-color: $ccolor;
+}
+.coffin_bottom::before {
+  content: '';
+  display: block;
+  height: calc($coffin-width * 1.67);
+  border-right: solid $ccolor 2px;
+  transform: skewX(6.3deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc($coffin-width / 1.5);
+  background-color: $ccolor;
+}
+
+.border_bottom {
+  position: absolute;
+  bottom: 0;
+  border-bottom: 2px solid $ccolor;
+  width: 81%;
+  left: 9.5%;
+}
+
+.tomb_stone {
+  margin: 150px;
+  width: $coffin-width;
+  border: $ccolor 2px solid;
+  height: calc($coffin-width * 1.5);
+  border-radius: 47% / 100px 100px 0 0;
+}
