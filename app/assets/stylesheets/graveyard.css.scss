@@ -51,7 +51,7 @@ $ccolor: #000;
   content: '';
   height: calc($coffin-width / 2);
   display: block;
-  border-right: solid $ccolor 2px;
+  /* border-right: solid $ccolor 2px; */
   transform: skewX(20deg);
   position: absolute;
   top: 0;
@@ -69,7 +69,7 @@ $ccolor: #000;
   content: '';
   display: block;
   height: calc($coffin-width * 1.67);
-  border-right: solid $ccolor 2px;
+  /* border-right: solid $ccolor 2px; */
   transform: skewX(-6.3deg);
   bottom: 0;
   right: 0;
@@ -81,7 +81,7 @@ $ccolor: #000;
   content: '';
   display: block;
   height: calc($coffin-width * 1.67);
-  border-right: solid $ccolor 2px;
+  /* border-right: solid $ccolor 2px; */
   transform: skewX(6.3deg);
   position: absolute;
   bottom: 0;
@@ -93,7 +93,7 @@ $ccolor: #000;
 .border_bottom {
   position: absolute;
   bottom: 0;
-  border-bottom: 2px solid $ccolor;
+  /* border-bottom: 2px solid $ccolor; */
   width: 81%;
   left: 9.5%;
 }
