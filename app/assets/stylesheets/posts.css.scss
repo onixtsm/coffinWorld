@@ -1,0 +1,31 @@
+@import 'graveyard.css.scss';
+
+main {
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  flex-wrap: wrap;
+  margin: auto;
+
+  section {
+    vertical-align: top;
+    display: inline-block;
+    margin: 50px auto;
+  }
+
+}
+
+.button {
+  padding: 10px 15px;
+  text-align: center;
+  border: #000 solid 1px;
+  background-color: black;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 50px;
+}
+
+
+.field {
+  color: black
+}

@@ -1,17 +1,18 @@
 $width: 700;
 
 nav {
-  color: #d2bfae;
   text-align: center;
   margin: auto;
   margin-bottom: 0;
   max-width: $width px;
 
-  h1 {
+  a {
+    text-decoration: none;
     font-size: 5em;
+    color: #d2bfae;
   }
 
-  h1::after {
+  a::after {
     content: '';
     background: no-repeat url('lopata.png');
     background-position: top 55% left 50%;
@@ -44,7 +45,7 @@ nav {
     }
 
     a:hover {
-      background-color: #9f2300
+      background-color: #9f2300;
     }
   }
 }

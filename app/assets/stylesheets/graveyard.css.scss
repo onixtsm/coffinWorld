@@ -5,6 +5,21 @@ $ccolor: #000;
   width: $coffin-width;
   position: relative;
 
+  h2 {
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    margin: auto;
+    z-index: 100;
+    font-size: 2em;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+    width: 70%;
+  }
+
   div.text {
     position: relative;
     margin: auto;
@@ -16,12 +31,14 @@ $ccolor: #000;
     text-align: center;
     z-index: 10;
     overflow: hidden;
-    height: calc($coffin-width * 2);
+    /* height: calc($coffin-width * 2); */
+    height: inherit;
 
   }
 }
 
 .coffin_top {
+  z-index: 1;
   position: relative;
   height: calc($coffin-width / 2);
   border-bottom: 1px solid $ccolor;
