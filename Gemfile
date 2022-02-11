@@ -5,6 +5,7 @@ gem 'bootsnap', require: false
 gem 'capistrano'
 gem 'capistrano-passenger'
 gem 'capistrano-rails'
+gem 'capistrano-rails-console', require: false
 gem 'capistrano-rbenv'
 gem 'cssbundling-rails'
 gem 'haml-rails'
