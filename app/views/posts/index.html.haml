@@ -2,10 +2,10 @@
   - @posts.each do |post|
     %section.coffin
       .coffin_top
-        %h2=post.Title
+        %h2=post.title
       .coffin_bottom
         .text
-          =post.Content
+          =post.content
 
 
 = link_to 'New Post', new_post_path, class: 'button'
