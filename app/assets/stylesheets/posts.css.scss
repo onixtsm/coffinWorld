@@ -20,17 +20,18 @@ main {
   max-width: 75ch;
 
   .trix-content {
-    font-size: 1.5em;
+    div {
+      font-size: 1.5em;
+    }
   }
 }
 
 .bottom_line {
   display: flex;
   justify-content: space-between;
-  margin: 15px auto; 
-  width: 69%
+  margin: 15px auto;
+  width: 69%;
 }
-
 .button {
   padding: 10px 15px;
   text-align: center;
@@ -38,6 +39,7 @@ main {
   background-color: black;
   text-decoration: none;
   color: #fff;
+  font-family: 'z003medium_italic';
 }
 
 .field {
