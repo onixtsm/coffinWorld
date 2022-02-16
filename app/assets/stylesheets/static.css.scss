@@ -8,6 +8,16 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
+
+  p {
+    margin: auto;
+    max-width: 75ch;
+    font-size: 2em;
+  }
+  p:first-child {
+    margin-top: 30px;
+  }
 
   section {
     vertical-align: top;
