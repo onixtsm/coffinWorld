@@ -12,5 +12,8 @@
   .field
     = f.label :content
     = f.rich_text_area :content
+  .field
+    = f.label :topic
+    = f.select :topic, [[0, "Ziņās"], [1, "Reklāma"], [2, "Sludinājums"]]
   .actions
     = f.submit 'Save'

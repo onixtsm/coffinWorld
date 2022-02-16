@@ -6,7 +6,9 @@
     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
     = csrf_meta_tags
     = csp_meta_tag
-    = stylesheet_link_tag "application", params[:controller], "data-turbo-track": "reload", extname: ".css.css"
+    - begin
+      = stylesheet_link_tag "application", params[:controller], "data-turbo-track": "reload", extname: ".css.css"
+    - rescue
     = javascript_include_tag "application", "data-turbo-track": "reload", defer: true
   %body
     = render 'shared/nav'
