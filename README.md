@@ -8,3 +8,7 @@ You will need ruby version 3.0.1
 And also you need yarn and mysql
 
 I belive you can just call `./bin/setup` file
+
+TODO:
+[] Random grave
+[] Labels

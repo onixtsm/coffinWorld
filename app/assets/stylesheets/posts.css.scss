@@ -12,7 +12,23 @@ main {
     display: inline-block;
     margin: 50px auto;
   }
+}
 
+.show {
+  margin-top: 30px;
+  /* background: url('oldpaper.png') center no-repeat; */
+  max-width: 75ch;
+
+  .trix-content {
+    font-size: 1.5em;
+  }
+}
+
+.bottom_line {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto; 
+  width: 69%
 }
 
 .button {
@@ -22,9 +38,7 @@ main {
   background-color: black;
   text-decoration: none;
   color: #fff;
-  margin-top: 50px;
 }
-
 
 .field {
   background-color: #fff;
