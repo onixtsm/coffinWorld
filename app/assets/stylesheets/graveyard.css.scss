@@ -36,7 +36,6 @@ $ccolor: #000;
     overflow: hidden;
     /* height: calc($coffin-width * 2); */
     /* height: inherit; */
-
   }
 }
 
@@ -119,9 +118,18 @@ $ccolor: #000;
 }
 
 .tomb_stone {
-  margin: 150px;
+  margin: 50px;
+  background-color: #000;
   width: $coffin-width;
   border: $ccolor 2px solid;
   height: calc($coffin-width * 1.5);
   border-radius: 47% / 100px 100px 0 0;
+
+  p {
+    max-width: 80%;
+    top: 20%;
+    margin: auto;
+    position: relative;
+    font-size: 1.2em;
+  }
 }
