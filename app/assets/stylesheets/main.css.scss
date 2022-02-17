@@ -17,7 +17,7 @@
 }
 
 body {
-  background: url('gothicwithoutmark.jpg'); // no-repeat
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('gothicwithoutmark.jpg'); // no-repeat
   background-size: auto;
   font-family: 'z003medium_italic';
   color: #FFF;

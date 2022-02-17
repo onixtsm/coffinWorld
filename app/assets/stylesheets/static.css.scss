@@ -1,6 +1,17 @@
 @import 'graveyard.css.scss';
 
 //TODO:add @media to fix font size
+.qrcode {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .qrcode {
+    display: none;
+  }
+}
 
 main {
   margin: auto;

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  resources :quotes
-  resources :posts
+  resources :quotes, :only => [:show, :index]
+  resources :posts, :only => [:show, :index]
   get 'static/authors'
   get 'static/home'
 
