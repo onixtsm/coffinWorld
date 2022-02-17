@@ -25,6 +25,13 @@ main {
     }
   }
 }
+.text {
+  height: inherit;
+}
+
+.trix-content {
+  overflow: hidden;
+}
 
 .bottom_line {
   display: flex;

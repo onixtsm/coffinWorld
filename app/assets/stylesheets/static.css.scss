@@ -8,7 +8,10 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: column;
+
+  .authors {
+    flex-direction: column;
+  }
 
   p {
     margin: auto;
